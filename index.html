@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+
+  <div class="sidebar">
+
+    <div class="sidebar-header">
+      <h2>Chats</h2>
+    </div>
+
+    <div class="chat-list">
+
+      <div class="chat-item">
+        <img src="https://i.pravatar.cc/50">
+        <div>
+          <h4>Alex</h4>
+          <p>Hello 👋</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- CHAT AREA -->
+
+  <div class="chat-area">
+
+    <div class="chat-header">
+      <img src="https://i.pravatar.cc/50">
+      <h3>Alex Johnson</h3>
+    </div>
+
+    <div id="messages" class="messages">
+
+    </div>
+
+    <div class="input-area">
+
+      <input
+        type="text"
+        id="messageInput"
+        placeholder="Type a message">
+
+      <button id="sendBtn">
+        Send
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script type="module" src="firebase.js"></script>
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
